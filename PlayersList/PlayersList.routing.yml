@@ -1,0 +1,7 @@
+PlayersList.playersList:
+  path : /player
+  defaults: 
+    _controller : 'Drupal\PlayersList\Controller\playersController::PlayersList'
+    _title : My Favourite Players
+  requirements : 
+    _permission : "access content"

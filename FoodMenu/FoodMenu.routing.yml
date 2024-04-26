@@ -1,0 +1,7 @@
+FoodMenu.MenuList:
+  path: /MenuName
+  defaults: 
+    _controller: 'Drupal\FoodMenu\Controller\FoodMenu::Menu'
+    _title: My Food Menu
+  requirements: 
+    _permission: "access content" 

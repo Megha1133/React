@@ -1,0 +1,7 @@
+module_players.playerslist:
+  path: /playerss
+  defaults:
+    _controller: 'Drupal\module_players\Controller\playersController::PlayersList'
+    _title: "My list Of Players"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,14 @@
+name: The Best Theme
+description: Custom theme creation for demo
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: olivero
+package: Custom
+libraries:
+  - the_best_theme/styling
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
