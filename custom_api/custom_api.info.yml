@@ -1,0 +1,5 @@
+name: CUSTOM API
+description: Define's a custom REST Resource
+package: Custom
+type: module
+core: 8.x

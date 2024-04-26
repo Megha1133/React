@@ -1,0 +1,16 @@
+name: Boehringer Theme
+description: "Custom Theme for My Website."
+type: theme
+base theme: false
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
+version: "10.1.1"
+libraries:
+  - boehringer_theme/styling
+regions:
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer_middlesecond: Middle_footer_upper
+  footer_middle: Middle_footer
+  footer_bottom: Bottom_footer
