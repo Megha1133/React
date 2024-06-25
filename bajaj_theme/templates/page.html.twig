@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+
+<body>
+<header class="gds-header__main" style="position:sticky;">
+ <div class="gds-logo">
+  <img height="39" width="100" viewBox="0 0 20 20" src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/Bajaj_Finserv_Digital_Logo_Primary_New.png"}}" />
+ </div>
+{{ page.header }}
+ <div class="emoji_btn" style="position:sticky;">
+  <img height="32" width="32" viewBox="0 0 20 20" src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/Whatsapp_Help_icon.png"}}" />
+  <img height="32" width="32" viewBox="0 0 20 20" src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/help_icon.png"}}" />
+  <button class="btn_login">Login / Register</button>
+ </div>
+</header>
+
+<div class="heading_text">
+ <h4>BAJAJ FINSERV ASSET MANAGEMENT LIMITED</h4>
+</div>
+   
+    <main class="menu">
+      <div class="content">
+        {{ page.content }}
+      </div>
+      {% if page.sidebar %}
+      <div class="sidebar"></div>
+      {% endif %}
+    </main>
+
+<footer_middle_second >
+    {{page.footer_middle_second}}
+</footer_middle_second>  
+
+<footer_middle class="middleArea">
+    {{page.footer_middle}}
+</footer_middle>
+
+
+
+<footer_bottom>
+ <div class="globe-region">
+ 
+<h5 class="headingText" >Mutual Fund investments are subject to market risks, read all scheme related documents carefully.</h3>
+<span class="bottomText" >Bajaj Finserv Asset Management Limited has been referred to as Bajaj Finserv AMC.</span><br />
+<span class="bottomText" >Copyright: All Rights reserved at Bajaj Finserv Asset Management Limited</span>
+</div>
+
+<div class="social-links" >
+<span style="text-align:right; color:white;padding-right: 0px; font-weight: bolder;">Follow Us On</span>
+<img height="32" width="32"  src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/facebook.png"}}" />
+<img height="32" width="32"  src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/youtube.png"}}" />
+<img height="32" width="32"  src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/instagram.png"}}" />
+<img height="32" width="32"  src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/linkdin_2.png"}}" />
+<img height="32" width="32"  src="{{"http://localhost/drupal-9.5.11/sites/default/files/2024-06/Twitter%20Icon%20White.png"}}" />
+</div>
+
+<div class="sideText">
+<a href="/privacy-policy" id="footer_privacy">Privacy | </a>
+<a href="/terms-and-conditions" id="footer_privacy">Terms of Use | </a>
+<a href="/disclaimer" id="footer_privacy">Disclaimer </a>
+</div>
+
+</footer_bottom>
+</body>
+</html>
+
