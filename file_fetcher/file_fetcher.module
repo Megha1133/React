@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function file_fetcher_page_attachments_alter(array &$page) {
+  if (RouteMatchInterface::createFromRequest(\Drupal::request())->getRouteName() === 'entity.node.canonical') {
+    $page['content']['#attached']['library'][] = 'file_fetcher/file-fetcher';
+  }
+}

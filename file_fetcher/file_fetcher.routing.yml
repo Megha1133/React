@@ -1,0 +1,7 @@
+file_fetcher.download:
+  path: '/file-fetch'
+  defaults:
+    _controller: '\Drupal\file_fetcher\Controller\FileFetcherController::download'
+    _title: 'File Fetcher'
+  requirements:
+    _permission: 'access content'

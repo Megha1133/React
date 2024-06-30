@@ -1,0 +1,7 @@
+name: 'File Fetcher'
+type: module
+description: 'Fetches files from primary or secondary folders.'
+core_version_requirement: ^8  || ^9
+package: Custom
+dependencies:
+  - drupal:file
