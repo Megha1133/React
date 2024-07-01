@@ -1,0 +1,13 @@
+<?php
+
+use core\lib\Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function file_fetcher_page_attachments_alter(array &$page, $route_match = NULL) {
+  // Check if $route_match is an instance of RouteMatchInterface
+  if ($route_match instanceof RouteMatchInterface && $route_match->getRouteName() === 'entity.node.canonical') {
+    $page['content']['#attached']['library'][] = 'file_fetcher/file-fetcher';
+  }
+}
