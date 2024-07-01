@@ -1,0 +1,436 @@
+For header help desk
+--------------------------------------
+<nav>
+<ul class="nav_row">
+<li id="whatsapp-icon">
+<a href="#"><img src="
+http://localhost/drupal-9/sites/default/files/2024-06/Whatsapp_icon.png"
+alt="help-icon" width="30" height="19"></a>
+<ul id="whatsapp-products">
+<li class="login_register_list">
+                    Investor WhatsApp Channel
+</li>
+<li class="login_register_list">
+<a style="text-decoration:none;" href="
+https://wa.me/918007736666?text=Hi"
+target="_blank"><strong>8007736666</strong></a>
+</li>
+<li class="login_register_list">
+                    Partner WhatsApp Channel
+</li>
+<li class="login_register_list">
+<a href="
+https://wa.me/9765296666"
+target="_blank"><strong>9765296666</strong></a>
+</li>
+</ul>
+</li>
+<li id="help-icon">
+<a href="#"><img src="
+http://localhost/drupal-9/sites/default/files/2024-06/help_icon.png"
+alt="help-icon" width="30" height="19"></a>
+<ul id="help-products">
+<li class="login_register_list">
+                    Toll-Free Number
+</li>
+<li class="login_register_list">
+<a href="tel:1800-309-3900"><strong>1800-309-3900</strong></a>
+</li>
+<li class="login_register_list">
+                    Write to Us at
+</li>
+<li class="login_register_list">
+<a href="mailto:service@bajajamc.com" target="_blank"><strong>service@bajajamc.com</strong></a>
+</li>
+</ul>
+</li>
+<li id="login-icon">
+<strong>Login/Register</strong><span class="sf-sub-indicator"><strong> »</strong></span>
+<ul id="login-products">
+<li class="login_register_list">
+<a class="sf-depth-2 sf-external" href="
+https://corporate.bajajamc.com/"
+target="_blank">Corporate</a>
+</li>
+<li class="login_register_list">
+<a class="sf-depth-2 sf-external" href="
+https://invest.bajajamc.com/mutual-fund/pan-entry"
+alt="Invest Now" aria-label="Invest in PAN Mutual Fund" target="_blank">Investor (Single mode of Holding)</a>
+</li>
+<li class="login_register_list">
+<a class="sf-depth-2 sf-external" href="
+https://mfs.kfintech.com/investor/General/StatementsAndReports"
+target="_blank">Account Statements</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<style>
+   .nav_row {
+   display:flex;
+   list-style: none;
+   padding: 1rem;
+   }
+   #whatsapp-products {
+  display: none;
+    font-size: 1rem;
+    margin-top: -6px;
+    width: max-content;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 19px;
+    position: absolute;
+    list-style: none;
+    box-shadow: 0px 4px 6px #00000019;
+    right: 24%;
+    border-radius: 8px;
+   }
+   #help-products {
+   display: none;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    padding: 19px;
+    margin-top: -8px;
+    width: max-content;
+    font-size: 1rem;
+    list-style: none;
+    position: absolute;
+    box-shadow: 0px 4px 6px #00000019;
+    right: 20%;
+    border-radius: 8px;
+   }
+   #login-products {
+   display: none;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    padding: 19px;
+    width: max-content;
+    font-size: 1rem;
+    margin-top: -20px;
+    list-style: none;
+    position: absolute;
+    box-shadow: 0px 4px 6px #00000019;
+    right: -5%;
+    top: 5.2em;
+    border-radius: 8px;
+   }
+   #login-icon:hover #login-products {
+   top: 4rem;
+   display: block;
+   position: absolute;
+   }
+   #whatsapp-icon:hover #whatsapp-products {
+   top: 4rem;
+   display: block;
+   position: absolute;
+   }
+   #help-icon:hover #help-products {
+   top: 4rem;
+   display: block;
+   position: absolute;
+   }
+   #help-icon{
+   margin-right: 20px;
+   }
+   #whatsapp-icon {
+   margin-right: 20px;
+   }
+   #login-icon {
+   margin-right: 25px;
+    background: blue;
+color: #ffffff;
+    position: relative;
+    text-align: center;
+    width: 166px;
+    border: none;
+    top: -0.7rem;
+    height: 42px;
+    border-radius: 5px;
+   }
+.sf-sub-indicator {
+height: 29px;
+    line-height: 9999px;
+    opacity: 0.75;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin-left: 13%;
+        text-indent: -9999px;
+        top: 54%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 20px;
+        left: 130px !important;
+        top: 1.7em;
+        background: url(
+http://localhost/drupal-9/sites/default/files/2024-06/polygon.png)
+no-repeat;
+}
+#block-whatsapphelplogin {
+margin-left: 0px;
+}
+@media (max-width: 75rem) {
+#block-whatsapphelplogin {
+display: none;
+}
+}
+</style>
+---------------------------------------------
+for mobile view header help desk
+---------------------------------------
+<nav>
+<ul class="nav_row">
+<li id="whatsapp-icon">
+<a href="#"><img src="
+http://localhost/drupal-9/sites/default/files/2024-06/Whatsapp_icon.png"
+alt="help-icon" width="30" height="19"></a>
+<ul id="whatsapp-products">
+<li class="login_register_list">
+                    Investor WhatsApp Channel
+</li>
+<li class="login_register_list">
+<a style="text-decoration:none;" href="
+https://wa.me/918007736666?text=Hi"
+target="_blank"><strong>8007736666</strong></a>
+</li>
+<li class="login_register_list">
+                    Partner WhatsApp Channel
+</li>
+<li class="login_register_list">
+<a href="
+https://wa.me/9765296666"
+target="_blank"><strong>9765296666</strong></a>
+</li>
+</ul>
+</li>
+<li id="mobile-login-icon">
+<a href="#"><img src="
+http://localhost/drupal-9/sites/default/files/2024-06/admin.png"
+alt="help-icon" width="30" height="19"></a>
+<ul id="login-products">
+<li class="login_register_list">
+<a class="sf-depth-2 sf-external" href="
+https://corporate.bajajamc.com/"
+target="_blank">Corporate</a>
+</li>
+<li class="login_register_list">
+<a class="sf-depth-2 sf-external" href="
+https://invest.bajajamc.com/mutual-fund/pan-entry"
+alt="Invest Now" aria-label="Invest in PAN Mutual Fund" target="_blank">Investor (Single mode of Holding)</a>
+</li>
+<li class="login_register_list">
+<a class="sf-depth-2 sf-external" href="
+https://mfs.kfintech.com/investor/General/StatementsAndReports"
+target="_blank">Account Statements</a>
+</li>
+</ul>
+</li>
+<li id="help-icon">
+<a href="#"><img src="
+http://localhost/drupal-9/sites/default/files/2024-06/help_icon.png"
+alt="help-icon" width="30" height="19"></a>
+<ul id="help-products">
+<li class="login_register_list">
+                    Toll-Free Number
+</li>
+<li class="login_register_list">
+<a href="tel:1800-309-3900"><strong>1800-309-3900</strong></a>
+</li>
+<li class="login_register_list">
+                    Write to Us at
+</li>
+<li class="login_register_list">
+<a href="mailto:service@bajajamc.com" target="_blank"><strong>service@bajajamc.com</strong></a>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+<style>
+   .nav_row {
+   display:flex;
+   list-style: none;
+   padding: 1rem;
+   }
+   #whatsapp-products {
+  display: none;
+    font-size: 1rem;
+    margin-top: -6px;
+    width: max-content;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding: 19px;
+    position: absolute;
+    list-style: none;
+    box-shadow: 0px 4px 6px #00000019;
+    right: 24%;
+    border-radius: 8px;
+   }
+   #help-products {
+   display: none;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    padding: 19px;
+    margin-top: -8px;
+    width: max-content;
+    font-size: 1rem;
+    list-style: none;
+    position: absolute;
+    box-shadow: 0px 4px 6px #00000019;
+    right: 20%;
+    border-radius: 8px;
+   }
+   #login-products {
+   display: none;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    padding: 19px;
+    width: max-content;
+    font-size: 1rem;
+    margin-top: -20px;
+    list-style: none;
+    position: absolute;
+    box-shadow: 0px 4px 6px #00000019;
+    right: -5%;
+    top: 5.2em;
+    border-radius: 8px;
+   }
+   #mobile-login-icon:hover #login-products {
+   top: 4rem;
+   display: block;
+   position: absolute;
+   }
+   #whatsapp-icon:hover #whatsapp-products {
+   top: 4rem;
+   display: block;
+   position: absolute;
+   }
+   #help-icon:hover #help-products {
+   top: 4rem;
+   display: block;
+   position: absolute;
+   }
+   #help-icon{
+   margin-right: 20px;
+   }
+   #whatsapp-icon {
+   margin-right: 20px;
+   }
+   #mobile-login-icon {
+margin-right: 0;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    width: 44px;
+    border: none;
+    border-radius: 5px;
+   }
+.sf-sub-indicator {
+height: 29px;
+    line-height: 9999px;
+    opacity: 0.75;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    margin-left: 13%;
+        text-indent: -9999px;
+        top: 54%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 20px;
+        left: 130px !important;
+        top: 1.7em;
+        background: url(
+http://localhost/drupal-9/sites/default/files/2024-06/polygon.png)
+no-repeat;
+}
+#block-mobilewhatsappblock {
+display: none;
+}
+@media (max-width: 75rem) {
+#block-mobilewhatsappblock {
+display: flex;
+        position: sticky;
+        margin-top: -3%;
+}
+}
+</style>
+--------------------------------------------------------------
+for footer tabs
+--------------------------------------------------------------
+<div class="social_icon">
+<div class="social_icon_text_div" style="width:100%;">
+<p style="color:#AAAAAA;font:normal normal normal 14px / 18px Rubik;letter-spacing:0px;">
+<strong class="footer_text" style="color:#FFFFFF !important;font:normal normal 600 16px / 22px Rubik;">Mutual Fund investments are subject to market risks, read all scheme related documents carefully.</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+            Bajaj Finserv Asset Management Limited has been referred to as Bajaj Finserv AMC.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+            Copyright: All Rights reserved at Bajaj Finserv Asset Management Limited
+</p>
+</div>
+<div class="social_icon_text_div_2" style="margin-left:14.5rem;margin-top:-2.3rem;width:31%;">
+<div class="social_icon_text_div_1" style="width:115%;">
+<p style="color:#FFFFFF !important;font:normal normal 600 16px / 22px Rubik;margin-left:1%;margin-top:40px;">
+                Follow Us On
+</p>
+<p style="display:flex;margin-left:4%;">
+<a href="
+https://www.linkedin.com/company/bajaj-finserv-asset-management-ltd/"><img
+src="
+http://localhost/drupal-9/sites/default/files/2024-06/Group%2022.png"
+alt="linkedin" width="28" height="28"></a><a href="
+https://www.facebook.com/bajajfinservmutualfund"><img
+src="
+http://localhost/drupal-9/sites/default/files/2024-06/Group_6.png"
+alt="facebook" width="28" height="28"></a><a href="
+https://www.youtube.com/@bajajfinservmf"><img
+src="
+http://localhost/drupal-9/sites/default/files/2024-06/youtube.png"
+alt="youtube" width="28" height="28"></a><a href="
+https://www.instagram.com/bajaj.finservmf/"><img
+src="
+http://localhost/drupal-9/sites/default/files/2024-06/instagram.png"
+alt="instagram" width="28" height="28"></a><a href="
+https://twitter.com/bajajfinservmf"><img
+src="
+http://localhost/drupal-9/sites/default/files/2024-06/Twitter%20Icon%20White.png"
+alt="twitter" width="28" height="28"></a>
+</p>
+<p>
+&nbsp;
+</p>
+</div>
+<div style="margin-top:inherit;">
+<p>
+<a href="
+https://www.bajajamc.com/privacy-policy">Privacy
+| </a><a href="
+https://www.bajajamc.com/terms-and-conditions">Terms
+of Use | </a><a href="
+https://www.bajajamc.com/disclaimer">Disclaimer</a>
+</p>
+</div>
+<style>
+                                                                                                .social_icon {
+                                                                                                margin-left: -18%;
+                                                                                                    width: max-content;
+                                                                                                    display: flex;
+                                                                                                }
+                                                                                                .social_icon_text {
+                                                                                                margin-top: 3% !important;
+                                                                                                    padding-right: 2%;
+                                                                                                }
+                                                                                                .social_icon_text_div_1 {
+                                                                                                display: flex;
+                                                                                                }
+        																						@media only screen and (min-width: 769px) and (max-width: 1024px){
+        																						.social_icon {
+                                                                                                margin-left: -18%;
+                                                                                                    width: max-content;
+                                                                                                    display: grid;
+                                                                                                }
+        																						}
+</style>
+</div>
+</div>
